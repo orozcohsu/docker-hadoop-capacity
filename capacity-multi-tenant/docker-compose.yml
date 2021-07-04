@@ -67,7 +67,7 @@ services:
       - 2181:2181
 
   submit:
-    image: orozcohsu/hadoop-submit:1.0.0-hadoop2.7.4-java8
+    image: orozcohsu/hadoop-capacity-submit:1.0.0-hadoop2.7.4-java8
     container_name: submit
     environment:
       SERVICE_PRECONDITION: "namenode:50070 datanode:50075 resourcemanager:8088"
@@ -75,13 +75,13 @@ services:
       - ./hadoopbase/hadoop.env
 
   driver:
-    image: orozcohsu/hadoop-driver:1.0.0-hadoop2.7.4-java8
+    image: orozcohsu/hadoop-capacity-driver:1.0.0-hadoop2.7.4-java8
     container_name: driver
     volumes:
       - ./data:/data  
     environment:
       SERVICE_PRECONDITION: "namenode:50070 datanode:50075 resourcemanager:8088"
-    command: tail -f /dev/null
+    #command: tail -f /dev/null
     env_file:
       - ./hadoopbase/hadoop.env
 

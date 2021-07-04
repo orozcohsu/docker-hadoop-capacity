@@ -6,4 +6,9 @@ RUN chmod a+x /opt/hadoop/applications/WordCount.jar
 ENV HADOOP_HOME="/opt/hadoop-2.7.4"
 ENV JAR_FILEPATH="/opt/hadoop/applications/WordCount.jar"
 ENV CLASS_TO_RUN="WordCount"
+ENV PARAMS="/input /output"
 
+ADD run.sh /run.sh
+RUN chmod a+x /run.sh
+
+CMD ["/run.sh"]
