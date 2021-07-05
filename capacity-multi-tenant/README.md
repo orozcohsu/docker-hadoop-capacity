@@ -22,4 +22,6 @@ hadoop jar /opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.
 
 resource arrangement
 https://www.huaweicloud.com/articles/11d11fcf90aebe56e15a1d552dedeea7.html
+https://stackoverflow.com/questions/43826703/difference-between-yarn-scheduler-maximum-allocation-mb-and-yarn-nodemanager
+
 
