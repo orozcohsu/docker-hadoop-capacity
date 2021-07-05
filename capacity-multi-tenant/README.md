@@ -20,3 +20,6 @@ hadoop jar /opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.
 or you can try 
 hadoop jar /opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.4.jar randomtextwriter  -D mapreduce.randomtextwriter.totalbytes=100000000 -D mapreduce.job.queuename=prod /output1240
 
+resource arrangement
+https://www.huaweicloud.com/articles/11d11fcf90aebe56e15a1d552dedeea7.html
+
