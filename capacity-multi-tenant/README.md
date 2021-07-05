@@ -24,4 +24,5 @@ resource arrangement
 https://www.huaweicloud.com/articles/11d11fcf90aebe56e15a1d552dedeea7.html
 https://stackoverflow.com/questions/43826703/difference-between-yarn-scheduler-maximum-allocation-mb-and-yarn-nodemanager
 
-
+spark on yarn
+https://www.gushiciku.cn/pl/2CCQ/zh-tw
